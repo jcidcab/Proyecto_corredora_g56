@@ -4,6 +4,8 @@ import NavbarHome from './components/NavbarHome';
 import FormularioRegistro from './components/FormularioRegistro';
 import FormularioAcceso from './components/FormularioAcceso';
 import IngresoPropiedad from './components/IngresoPropiedad';
+import CardList from './components/CardList';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <FormularioRegistro/>
       <FormularioAcceso/>
       <IngresoPropiedad/>
+      <CardList/>
+      <Footer/>
     </>
   )
 }
