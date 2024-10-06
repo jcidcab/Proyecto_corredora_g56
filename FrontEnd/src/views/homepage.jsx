@@ -1,11 +1,17 @@
 import React from 'react';
+import NavbarHome from '../components/NavbarHome'
+import MenuLateral from '../components/MenuLateral';
+import CardList from '../components/CardList';
+import Footer from '../components/Footer'
 
 function Homepage() {
   return (
-    <div>
-      <h1>HomePage</h1>
-      {/* Contenido adicional */}
-    </div>
+    <>
+    <NavbarHome/>
+    <MenuLateral/>
+    <CardList/>
+    <Footer/>
+    </>
   );
 }
 

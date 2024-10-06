@@ -1,11 +1,17 @@
 import React from 'react';
+import NavbarLogged from '../components/NavbarLogged'
+import MenuLateral from '../components/MenuLateral';
+import CardList from '../components/CardList';
+import Footer from '../components/Footer'
 
 function HomepageLogged() {
   return (
-    <div>
-      <h1>HomePageLogged</h1>
-      {/* Contenido adicional */}
-    </div>
+    <>
+    <NavbarLogged/>
+    <MenuLateral/>
+    <CardList/>
+    <Footer/>
+    </>
   );
 }
 

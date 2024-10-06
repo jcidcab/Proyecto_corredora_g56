@@ -1,11 +1,16 @@
 import React from 'react';
+import NavbarHome from '../components/NavbarHome'
+import FormularioAcceso from '../components/FormularioAcceso';
+import Footer from '../components/Footer';
+
 
 function InicioSesion() {
   return (
-    <div>
-      <h1>Inicio Sesion</h1>
-      {/* Contenido adicional */}
-    </div>
+    <>
+    <NavbarHome/>
+    <FormularioAcceso/>
+    <Footer/>
+    </>
   );
 }
 
