@@ -6,11 +6,11 @@ import Footer from '../components/Footer';
 
 function InicioSesion() {
   return (
-    <>
+    <div className='loginview'>
     <NavbarHome/>
     <FormularioAcceso/>
     <Footer/>
-    </>
+    </div>
   );
 }
 
