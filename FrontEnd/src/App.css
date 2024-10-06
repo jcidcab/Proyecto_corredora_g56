@@ -1,0 +1,14 @@
+.publicaciones{
+    justify-content: center;
+    text-align: center;
+}
+
+.containerCardList{
+    margin-top: 50px;
+}
+
+.listadoTarjetas{
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
