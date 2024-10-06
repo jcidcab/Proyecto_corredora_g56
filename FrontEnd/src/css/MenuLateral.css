@@ -1,0 +1,27 @@
+.menu-lateral {
+    width: 200px; /* Ancho del menú lateral */
+    background-color: #f4f4f4; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-right: 1px solid #ccc; /* Línea de separación a la derecha */
+  }
+  
+  .menu-lateral h2 {
+    font-size: 1.5em; /* Tamaño de la fuente del encabezado */
+    margin-bottom: 20px; /* Espaciado debajo del encabezado */
+  }
+  
+  .menu-item {
+    display: flex; /* Utilizar flexbox para alinear el icono y el texto */
+    align-items: center; /* Alinear verticalmente */
+    padding: 10px; /* Espaciado interno para cada item */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  }
+  
+  .menu-item:hover {
+    background-color: #e0e0e0; /* Cambiar el color de fondo al pasar por encima */
+  }
+  
+  .menu-item span {
+    margin-left: 10px; /* Espaciado entre el icono y el texto */
+  }
+  

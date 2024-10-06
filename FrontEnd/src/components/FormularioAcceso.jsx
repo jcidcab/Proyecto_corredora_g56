@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Col, Form, Row, Alert } from 'react-bootstrap';
+import '../css/FormularioAcceso.css';
 
 const FormularioAcceso = () => {
   // Estados para los campos del formulario
