@@ -8,7 +8,6 @@ function RegistroUsuarios() {
   return (
     <>
     <NavbarHome/>
-    <MenuLateral/>
     <FormularioRegistro/>
     <Footer/>
     </>
