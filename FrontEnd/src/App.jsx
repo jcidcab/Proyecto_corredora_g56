@@ -12,7 +12,10 @@ function App() {
 
   return (
     <>
-
+      <NavBar />
+      <FormularioRegistro/>
+      <FormularioAcceso/>
+      <IngresoPropiedad/>
       <CardList/>
       <Footer/>
     </>
