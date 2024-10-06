@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Homepage() {
+function CargaPublicacion() {
   return (
     <div>
-      <h1>HomePage</h1>
+      <h1>Carga de Publicación</h1>
       {/* Contenido adicional */}
     </div>
   );
 }
 
-export default Homepage;
+export default CargaPublicacion;

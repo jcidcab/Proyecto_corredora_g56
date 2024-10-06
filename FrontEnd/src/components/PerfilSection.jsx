@@ -1,6 +1,6 @@
 // PerfilSection.jsx
 import React, { useState } from 'react';
-import '../css/PerfilSection.css'
+import '../css/PerfilSection.css';
 
 const PerfilSection = ({ nombreUsuario }) => {
   // Estados para almacenar la imagen de perfil y las imágenes de propiedades

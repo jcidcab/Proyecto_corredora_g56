@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faMessage, faSliders } from '@fortawesome/free-solid-svg-icons';
-import '../css/MenuLateral.css'
+import '../css/MenuLateral.css';
 
 
 const MenuLateral = () => {

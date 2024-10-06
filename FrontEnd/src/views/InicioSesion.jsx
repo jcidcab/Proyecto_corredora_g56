@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Homepage() {
+function InicioSesion() {
   return (
     <div>
-      <h1>HomePage</h1>
+      <h1>Inicio Sesion</h1>
       {/* Contenido adicional */}
     </div>
   );
 }
 
-export default Homepage;
+export default InicioSesion;

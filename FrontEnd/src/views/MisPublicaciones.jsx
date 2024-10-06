@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Homepage() {
+function MisPublicaciones() {
   return (
     <div>
-      <h1>HomePage</h1>
+      <h1>MisPublicaciones</h1>
       {/* Contenido adicional */}
     </div>
   );
 }
 
-export default Homepage;
+export default MisPublicaciones;
