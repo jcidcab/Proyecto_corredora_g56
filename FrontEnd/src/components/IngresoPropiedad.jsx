@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Form, Button, Col, Row, Alert } from 'react-bootstrap';
-import '../css/IngresoPropiedad';
+import '../css/IngresoPropiedad.css';
 
 const IngresoPropiedad = () => {
   // Estados para los campos del formulario

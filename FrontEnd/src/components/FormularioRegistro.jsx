@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Alert from 'react-bootstrap/Alert';
-import '../css/FormularioRegistro'
+import '../css/FormularioRegistro.css';
 
 const FormularioRegistro = () => {
   // Estados para cada campo del formulario
