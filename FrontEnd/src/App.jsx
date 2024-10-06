@@ -4,16 +4,17 @@ import NavBar from './components/NavBar';
 import FormularioRegistro from './components/FormularioRegistro';
 import FormularioAcceso from './components/FormularioAcceso';
 import IngresoPropiedad from './components/IngresoPropiedad';
+import CardList from './components/CardList';
+import Footer from './components/Footer';
 
 function App() {
 
 
   return (
     <>
-      <NavBar />
-      <FormularioRegistro/>
-      <FormularioAcceso/>
-      <IngresoPropiedad/>
+
+      <CardList/>
+      <Footer/>
     </>
   )
 }
