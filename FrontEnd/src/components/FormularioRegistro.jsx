@@ -29,7 +29,7 @@ const FormularioRegistro = () => {
     // Si todos los campos están completos, se oculta el mensaje de error
     setError(false);
     
-    // Aquí puedes agregar la lógica para enviar los datos a tu backend o realizar alguna acción
+    //agregar la lógica para enviar los datos a tu backend o realizar alguna acción
     console.log("Formulario enviado con éxito");
     console.log({ nombre, email, telefono, password });
 

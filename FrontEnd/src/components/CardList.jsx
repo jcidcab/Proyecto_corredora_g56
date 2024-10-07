@@ -13,7 +13,7 @@ const cardData = [
 const CardList = () => {
 return (
 <Container className='containerCardList'>
-    <h2 className='publicaciones'>Mis publicaciones</h2>
+    <h2 className='publicaciones'>Propiedades Disponibles</h2>
     <div className='listadoTarjetas'> 
     <Row>
     {cardData.map((card, index) => (

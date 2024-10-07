@@ -9,7 +9,7 @@ function NavbarLogged() {
         <Navbar bg="light" expand="lg" className='ps-5'>
             <Navbar.Brand href="/" className='ms-5'>
                 <img
-                    src="https://i.imgur.com/nifaeBv.jpeg" // Reemplaza con la URL o ruta de tu logo
+                    src="https://i.imgur.com/nifaeBv.jpeg" 
                     width="150"
                     height="70"
                     className="d-inline-block align-top"
