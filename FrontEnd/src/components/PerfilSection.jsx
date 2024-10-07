@@ -1,5 +1,6 @@
 // PerfilSection.jsx
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../css/PerfilSection.css';
 
 const PerfilSection = ({ nombreUsuario }) => {
@@ -68,6 +69,12 @@ const PerfilSection = ({ nombreUsuario }) => {
         ) : (
           <p>No hay publicaciones</p>
         )}
+      </div>
+       {/* Botón para agregar una nueva publicación */}
+      <div className="agregar-publicacion">
+        <Link to="/carga-publicacion">
+          <button className="btn-agregar">Agregar Publicación</button>
+        </Link>
       </div>
     </div>
   );

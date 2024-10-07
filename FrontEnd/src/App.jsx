@@ -10,6 +10,7 @@ import MiPerfil from './views/MiPerfil.jsx';
 import MisPublicaciones from './views/MisPublicaciones.jsx';
 import RegistroUsuarios from './views/RegistroUsuarios.jsx';
 import VistaDetallePublicacion from './views/VistaDetallePublicacion.jsx';
+import Propiedades from './views/Propiedades.jsx';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Route path="/mis-publicaciones" element={<MisPublicaciones />} />
       <Route path="/carga-publicacion" element={<CargaPublicacion />} />
       <Route path="/detalle-publicacion" element={<VistaDetallePublicacion />} />
+      <Route path="/propiedades" element={<Propiedades />} />
       <Route path="*" element={<Error />} />
     </Routes>
   </Router>

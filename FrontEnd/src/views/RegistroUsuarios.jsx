@@ -7,13 +7,10 @@ function RegistroUsuarios() {
   return (
     <>
     <NavbarHome/>
-    
     <h1 className='text-center'>Registro de usuario</h1>
     <div className='registroview me-5 ms-5 mt-5'>
     <FormularioRegistro/>
     </div>
-    
-    
     <Footer/>
     </>
   );
