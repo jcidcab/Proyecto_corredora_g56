@@ -4,10 +4,17 @@ import { HouseDoorFill, BadgeWc } from 'react-bootstrap-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const DetallePublicacion = () => {
-  // Estado para controlar qué imagen grande se muestra
-  const [imagenGrande, setImagenGrande] = useState("https://images.adsttc.com/media/images/5ea2/119e/b357/6561/5800/002f/medium_jpg/3._E_PHX6029.jpg?1587679598"); // Imagen inicial
+  // Array de URLs de imágenes diferentes
+  const images = [
+    "https://via.placeholder.com/800x400?text=Imagen+1", // Reemplaza con tu URL de imagen
+    "https://via.placeholder.com/800x400?text=Imagen+2", // Otra imagen
+    "https://via.placeholder.com/800x400?text=Imagen+3"  // Y otra más
+  ];
+  
+  // Estado para la imagen principal
+  const [imagenGrande, setImagenGrande] = useState(images[0]);
 
-  // Handler para hacer clic en imágenes del selector
+  // Cambiar imagen principal
   const handleImageClick = (url) => {
     setImagenGrande(url);
   };
@@ -16,40 +23,29 @@ const DetallePublicacion = () => {
     <Container className="my-5">
       <Row>
         <Col md={8}>
-          {/* Imagen grande de la publicación */}
+          {/* Imagen principal */}
           <img
-            src={imagenGrande} // Imagen seleccionada
+            src={imagenGrande}
             className="img-fluid mb-3"
             alt="Publicación Principal"
           />
 
-          {/* Selector de imágenes */}
+          {/* Miniaturas */}
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-            <img
-              src="https://es.habcdn.com/photos/project/medium/bano-con-revestimientos-porcelanicos-y-mueble-lavabo-suspendido-2265906.jpg" // Reemplaza con la URL de tu imagen pequeña
-              alt="Imagen 1"
-              className="img-fluid cursor-pointer"
-              style={{ width: '32%' }}
-              onClick={() => handleImageClick("imagen_pequena_1_url")}
-            />
-            <img
-              src="https://content.arquitecturaydiseno.es/medio/2021/02/17/dormitorio-con-balcon-de-madera_98a9bfcc_1200x630.jpg" // Reemplaza con la URL de tu imagen pequeña
-              alt="Imagen 2"
-              className="img-fluid cursor-pointer"
-              style={{ width: '32%' }}
-              onClick={() => handleImageClick("imagen_pequena_2_url")}
-            />
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHNfnj0uQMX2pT0OvxfOakhyAGhY7qkNJMMQ&s" // Reemplaza con la URL de tu imagen pequeña
-              alt="Imagen 3"
-              className="img-fluid cursor-pointer"
-              style={{ width: '32%' }}
-              onClick={() => handleImageClick("imagen_pequena_3_url")}
-            />
+            {images.map((url, index) => (
+              <img
+                key={index}
+                src={url}
+                alt={`Imagen ${index + 1}`}
+                className="img-fluid cursor-pointer"
+                style={{ width: '32%', cursor: 'pointer' }}
+                onClick={() => handleImageClick(url)}
+              />
+            ))}
           </div>
         </Col>
         <Col md={4}>
-          {/* Detalles de la publicación */}
+          {/* Detalles */}
           <h2>Título de la Propiedad</h2>
           <p><strong>Precio:</strong> $200,000</p>
           <p><strong>Comuna:</strong> Santiago</p>

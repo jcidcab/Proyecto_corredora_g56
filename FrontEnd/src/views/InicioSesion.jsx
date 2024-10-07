@@ -6,12 +6,15 @@ import Footer from '../components/Footer';
 
 function InicioSesion() {
   return (
-    <div className='loginview'>
+    <>
     <NavbarHome/>
-    <h1>Inicio Sesion</h1>
+    <h1 className='text-center'>Inicio Sesion</h1>
+    <div className='loginview ms-5 me-5 mt-5'>
     <FormularioAcceso/>
-    <Footer/>
     </div>
+    <Footer/>
+    </>
+    
   );
 }
 

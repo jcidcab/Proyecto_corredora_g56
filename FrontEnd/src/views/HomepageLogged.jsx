@@ -8,8 +8,10 @@ function HomepageLogged() {
   return (
     <>
     <NavbarLogged/>
+    <div className='containerSection'>
     <MenuLateral/>
     <CardList/>
+    </div>
     <Footer/>
     </>
   );
