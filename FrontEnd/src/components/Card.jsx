@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const MyCard = ({ title, location, price }) => {
 return (
@@ -9,7 +10,9 @@ return (
     <Card.Title>{title}</Card.Title>
     <Card.Text>Ubicación: {location}</Card.Text>
     <Card.Text>Precio: ${price}</Card.Text>
+    <Link to="/detalle-publicacion">
     <Button variant="primary">Ver más</Button>
+    </Link>
     </Card.Body>
 </Card>
 );

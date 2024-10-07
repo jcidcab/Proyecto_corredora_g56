@@ -1,11 +1,17 @@
 import React from 'react';
+import PerfilSection from '../components/PerfilSection';
+import Footer from '../components/Footer';
+import NavbarLogged from '../components/NavbarLogged';
 
 function MiPerfil() {
   return (
-    <div>
-      <h1>MiPerfil</h1>
-      {/* Contenido adicional */}
-    </div>
+    <>
+      <NavbarLogged/>
+      <div className='containerSection'>
+      <PerfilSection/>
+      </div>
+      <Footer/>
+    </>
   );
 }
 

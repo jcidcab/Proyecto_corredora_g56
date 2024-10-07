@@ -8,6 +8,7 @@ import "../css/InicioSesion.css";
 function InicioSesion() {
   return (
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div className='InicioSesion'>
       
       <div className='navbar'>
@@ -25,12 +26,22 @@ function InicioSesion() {
       </div>
 =======
     <div className='loginview'>
+=======
+    <>
+>>>>>>> origin/main
     <NavbarHome/>
-    <h1>Inicio Sesion</h1>
+    <h1 className='text-center'>Inicio Sesion</h1>
+    <div className='loginview ms-5 me-5 mt-5'>
     <FormularioAcceso/>
+<<<<<<< HEAD
     <Footer/>
 >>>>>>> main
+=======
+>>>>>>> origin/main
     </div>
+    <Footer/>
+    </>
+    
   );
 }
 
