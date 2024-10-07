@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function NavbarHome() {
   return (
     <Navbar bg="light" expand="lg" className='ps-5'>
-      <Navbar.Brand href="#home" className='ms-5'>
+      <Navbar.Brand href="/" className='ms-5'>
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNci0l4oy4eruJe5fuhETj2UQ_wI2r6P70qg&s"
           width="50"

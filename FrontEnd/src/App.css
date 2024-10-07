@@ -1,3 +1,7 @@
+.containerSection{
+    display: flex;
+}
+
 .publicaciones{
     justify-content: center;
     text-align: center;
@@ -11,4 +15,23 @@
     margin-top: 70px;
     justify-content: center;
     align-items: center;
+}
+
+
+.loginview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; 
+}
+
+main {
+    flex: 1;
+}
+
+.registroview{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; 
 }
