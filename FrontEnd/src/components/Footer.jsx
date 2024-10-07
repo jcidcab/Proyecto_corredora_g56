@@ -5,7 +5,7 @@ const Footer = () => {
 return (
 <footer className="bg-dark text-white text-center py-3">
     <Container>
-    <p className="mb-0">SuCasa &copy; Marca Registrada</p>
+    <p className="mb-0">SuCasa App &copy; Marca Registrada</p>
     <p style={{fontSize: '12px'}}>Juan Cid, Nicolás Perez y Pablo Araya</p>
     </Container>
 </footer>
