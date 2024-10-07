@@ -10,8 +10,10 @@ const MenuLateral = () => {
     <div className="menu-lateral">
      
       <div className="menu-item">
-        <FontAwesomeIcon icon={faHouse} />
+      <Link to="/propiedades" className='menu-item'>
+        <FontAwesomeIcon icon={faHouse}/>
         <span>Propiedades</span>
+      </Link>
       </div>
       <hr />
       <div className="menu-item">
