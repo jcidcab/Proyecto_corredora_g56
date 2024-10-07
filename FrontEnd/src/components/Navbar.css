@@ -1,3 +1,40 @@
 .rounded-button {
     border-radius: 20px; /* Ajusta el valor para más o menos redondeado */
 }
+
+
+/* Navbar.css */
+
+.navbar-custom {
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    display: flex;
+    justify-content: space-between; /* Logo a la izquierda, botones a la derecha */
+    align-items: center;
+    padding: 0 20px; /* Espaciado lateral */
+    box-sizing: border-box;
+  }
+  
+  .navbar-custom .navbar-brand {
+    margin-left: 0; /* Asegura que el logo esté al borde izquierdo */
+  }
+  
+  .navbar-custom .navbar-collapse {
+    flex-grow: 0; /* Evita que el colapso se extienda en pantallas pequeñas */
+  }
+  
+  .navbar-custom .ms-auto {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-custom .rounded-button {
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 5px 15px; /* Espaciado interno */
+  }
+  
+  .navbarflex {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
