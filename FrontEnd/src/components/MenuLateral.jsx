@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faMessage, faSliders, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faMessage, faSliders, faUser, faUpload } from '@fortawesome/free-solid-svg-icons';
 import '../css/MenuLateral.css';
 import { Link } from 'react-router-dom';
 
@@ -27,6 +27,12 @@ const MenuLateral = () => {
         <Link to="/mi-perfil" className="menu-item">
         <FontAwesomeIcon icon={faUser} /> 
         <span>Mi Perfil</span>
+        </Link>
+        </div>
+      <div className='menu-item'>
+        <Link to="/carga-publicacion" className="menu-item">
+        <FontAwesomeIcon icon={faUpload} /> 
+        <span>Publica una Propiedad</span>
         </Link>
         </div>
     </div>
