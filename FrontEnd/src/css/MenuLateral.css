@@ -1,27 +1,30 @@
 .menu-lateral {
-    width: 200px; /* Ancho del menú lateral */
-    background-color: #f4f4f4; /* Color de fondo */
-    padding: 20px; /* Espaciado interno */
-    border-right: 1px solid #ccc; /* Línea de separación a la derecha */
+    width: 200px; 
+    background-color: #0B74D4; 
+    padding: 20px; 
+    border-right: 1px solid #ccc; 
   }
   
   .menu-lateral h2 {
-    font-size: 1.5em; /* Tamaño de la fuente del encabezado */
-    margin-bottom: 20px; /* Espaciado debajo del encabezado */
+    font-size: 1.5em; 
+    margin-bottom: 20px; 
   }
   
   .menu-item {
-    display: flex; /* Utilizar flexbox para alinear el icono y el texto */
-    align-items: center; /* Alinear verticalmente */
-    padding: 10px; /* Espaciado interno para cada item */
-    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    display: flex; 
+    align-items: center; 
+    padding: 10px; 
+    cursor: pointer; 
+    color: white;
   }
   
   .menu-item:hover {
-    background-color: #e0e0e0; /* Cambiar el color de fondo al pasar por encima */
+    background-color: #ffffff; 
+    border-radius: 10px;
+    color: #0B74D4;
   }
   
   .menu-item span {
-    margin-left: 10px; /* Espaciado entre el icono y el texto */
+    margin-left: 10px; 
   }
   
