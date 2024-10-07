@@ -9,13 +9,13 @@ function NavbarHome() {
       <Navbar bg="light" expand="lg" className='navbar-custom'>
         <Navbar.Brand href="#home">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNci0l4oy4eruJe5fuhETj2UQ_wI2r6P70qg&s"
-            width="50"
-            height="50"
+           src="https://i.imgur.com/nifaeBv.jpeg"
+           width="150"
+           height="70"
             className="d-inline-block align-top"
             alt="Logo"
           />
-          {' SuCasa'}
+          
         </Navbar.Brand>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
