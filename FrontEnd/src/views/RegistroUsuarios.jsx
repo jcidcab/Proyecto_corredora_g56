@@ -9,7 +9,7 @@ function RegistroUsuarios() {
     <>
     <div className='registroview'>
     <NavbarHome/>
-    <h1>Registro de usuarios</h1>
+    <h1>Registro de usuario</h1>
     <FormularioRegistro/>
     <Footer/>
     </div>
