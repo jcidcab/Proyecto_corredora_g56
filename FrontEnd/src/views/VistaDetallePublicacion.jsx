@@ -1,10 +1,21 @@
 import React from 'react';
+import DetallePublicacion from '../components/DetallePublicacion';
+import NavbarHome from '../components/NavbarHome';
+import MenuLateral from '../components/MenuLateral';
+import Footer from '../components/Footer';
 
 function VistaDetallePublicacion() {
   return (
     <div>
-      <h1>VistaDetallePublicacion</h1>
-      {/* Contenido adicional */}
+      <>
+      <NavbarHome/>
+      <div className='containerSection fullpage'>
+      <MenuLateral/>
+      <DetallePublicacion/>
+      </div>
+      <Footer/>
+
+      </>
     </div>
   );
 }

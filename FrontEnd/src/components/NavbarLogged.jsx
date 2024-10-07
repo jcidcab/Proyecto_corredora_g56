@@ -3,7 +3,7 @@ import { Navbar, Nav, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Bell } from 'react-bootstrap-icons';
 
-function CustomNavbar() {
+function NavbarLogged() {
     return (
         <Navbar bg="light" expand="lg" className='ps-5'>
             <Navbar.Brand href="#home" className='ms-5'>
@@ -37,4 +37,4 @@ function CustomNavbar() {
     );
 }
 
-export default CustomNavbar;
+export default NavbarLogged;

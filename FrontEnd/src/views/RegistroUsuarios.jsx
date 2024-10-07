@@ -6,12 +6,15 @@ import Footer from '../components/Footer';
 function RegistroUsuarios() {
   return (
     <>
-    <div className='registroview'>
     <NavbarHome/>
-    <h1>Registro de usuario</h1>
+    
+    <h1 className='text-center'>Registro de usuario</h1>
+    <div className='registroview me-5 ms-5 mt-5'>
     <FormularioRegistro/>
-    <Footer/>
     </div>
+    
+    
+    <Footer/>
     </>
   );
 }
