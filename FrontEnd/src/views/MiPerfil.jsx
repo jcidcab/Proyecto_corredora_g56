@@ -7,7 +7,7 @@ function MiPerfil() {
   return (
     <>
       <NavbarLogged/>
-      <div className='containerSection'>
+      <div className='containerSectionPerfil'>
       <PerfilSection/>
       </div>
       <Footer/>
