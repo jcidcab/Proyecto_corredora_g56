@@ -1,7 +1,7 @@
 import React from 'react';
 import NavbarLogged from '../components/NavbarLogged';
 import Footer from '../components/Footer';
-import IngresoPropiedad from '../components/IngresoPropiedad'
+import IngresoPropiedad from '../components/IngresoPropiedad';
 
 function CargaPublicacion() {
   return (
