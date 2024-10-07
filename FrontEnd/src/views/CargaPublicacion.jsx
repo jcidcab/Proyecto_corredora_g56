@@ -1,11 +1,17 @@
 import React from 'react';
+import NavbarLogged from '../components/NavbarLogged';
+import Footer from '../components/Footer';
+import IngresoPropiedad from '../components/IngresoPropiedad'
 
 function CargaPublicacion() {
   return (
-    <div>
-      <h1>Carga de Publicación</h1>
-      {/* Contenido adicional */}
+    <>
+    <NavbarLogged/>
+    <div className='IngresoPropiedadSection ms-5 me-5 mt-5'>
+    <IngresoPropiedad/>
     </div>
+    <Footer/>
+    </>
   );
 }
 
