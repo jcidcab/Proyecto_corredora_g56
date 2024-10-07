@@ -7,7 +7,7 @@ function NavbarHome() {
   return (
     <div className='navbarflex'>
       <Navbar bg="light" expand="lg" className='navbar-custom'>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
            src="https://i.imgur.com/nifaeBv.jpeg"
            width="150"
