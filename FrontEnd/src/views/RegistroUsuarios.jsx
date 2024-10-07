@@ -7,10 +7,12 @@ import MenuLateral from '../components/MenuLateral'
 function RegistroUsuarios() {
   return (
     <>
+    <div className='registroview'>
     <NavbarHome/>
-    <MenuLateral/>
+    <h1>Registro de usuario</h1>
     <FormularioRegistro/>
     <Footer/>
+    </div>
     </>
   );
 }

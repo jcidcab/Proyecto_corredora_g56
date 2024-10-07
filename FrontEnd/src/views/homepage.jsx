@@ -8,8 +8,10 @@ function Homepage() {
   return (
     <>
     <NavbarHome/>
+    <div className='containerSection'>
     <MenuLateral/>
     <CardList/>
+    </div>
     <Footer/>
     </>
   );
