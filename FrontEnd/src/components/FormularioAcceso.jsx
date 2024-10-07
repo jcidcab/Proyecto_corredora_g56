@@ -26,7 +26,7 @@ const FormularioAcceso = () => {
     // Si la contraseña es correcta, ocultar mensaje de error
     setError(false);
 
-    // Aquí puedes agregar la lógica para redirigir al usuario o realizar alguna acción
+    // Agregar la lógica para redirigir al usuario o realizar alguna acción
     console.log("Inicio de sesión exitoso");
     console.log({ usuario, password });
 
