@@ -6,15 +6,14 @@ import { Bell } from 'react-bootstrap-icons';
 function NavbarLogged() {
     return (
         <Navbar bg="light" expand="lg" className='ps-5'>
-            <Navbar.Brand href="#home" className='ms-5'>
+            <Navbar.Brand href="/" className='ms-5'>
                 <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNci0l4oy4eruJe5fuhETj2UQ_wI2r6P70qg&s" // Reemplaza con la URL o ruta de tu logo
-                    width="30"
-                    height="30"
+                    src="https://i.imgur.com/nifaeBv.jpeg" // Reemplaza con la URL o ruta de tu logo
+                    width="150"
+                    height="70"
                     className="d-inline-block align-top"
                     alt="Logo"
                 />
-                {' MiAplicación'}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
