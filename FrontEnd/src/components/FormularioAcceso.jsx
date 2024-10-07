@@ -43,12 +43,12 @@ const FormularioAcceso = () => {
       {/* Campo Email o Nombre de usuario */}
       <Form.Group as={Row} className="mb-3" controlId="formUsuario">
         <Form.Label column sm={3}>
-          Email o Nombre de usuario
+          Email 
         </Form.Label>
         <Col sm={9}>
           <Form.Control
             type="text"
-            placeholder="Ingresa tu email o nombre de usuario"
+            placeholder="Ingresa tu email"
             value={usuario}
             onChange={(e) => setUsuario(e.target.value)}
           />
