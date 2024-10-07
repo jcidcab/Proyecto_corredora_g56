@@ -1,42 +1,41 @@
 
 .ingreso-propiedad {
-    max-width: 600px; /* Ancho máximo del formulario */
-    margin: 0 auto; /* Centrar el formulario */
-    padding: 20px; /* Espaciado interno */
-    background-color: #f8f9fa; /* Color de fondo gris claro */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    max-width: 600px; 
+    margin: 0 auto; 
+    background-color: #f8f9fa;
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
   }
   
   .ingreso-propiedad h2 {
-    text-align: center; /* Centrar el título */
-    margin-bottom: 20px; /* Espacio debajo del título */
+    text-align: center; 
+    margin-bottom: 20px; 
   }
   
   .input-field {
-    border-radius: 4px; /* Bordes redondeados para los campos de entrada */
-    border: 1px solid #ced4da; /* Bordes grises */
+    border-radius: 4px; 
+    border: 1px solid #ced4da; 
   }
   
   .input-field:focus {
-    border-color: #007bff; /* Cambia el color del borde al enfocar */
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra al enfocar */
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
   }
   
   .submit-button {
-    width: 100%; /* Botón ocupa todo el ancho */
-    background-color: #007bff; /* Color de fondo del botón */
-    border: none; /* Sin borde */
-    color: white; /* Color del texto */
-    border-radius: 4px; /* Bordes redondeados */
-    padding: 10px; /* Espaciado interno */
+    width: 100%; 
+    background-color: #007bff;
+    border: none; 
+    color: white; 
+    border-radius: 4px; 
+    padding: 10px; 
   }
   
   .submit-button:hover {
-    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+    background-color: #0056b3;
   }
   
   .submit-button:focus {
-    outline: none; /* Quitar contorno al enfocar */
+    outline: none; 
   }
   

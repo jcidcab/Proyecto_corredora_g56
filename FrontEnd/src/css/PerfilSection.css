@@ -1,7 +1,7 @@
 /* PerfilSection.css */
 .perfil-section {
   display: flex;
-  justify-content: space-between; /* Esto crea dos columnas: izquierda y derecha */
+  justify-content: space-between; 
   padding: 20px;
   width: 100%;
 }
@@ -10,8 +10,8 @@
 .header-perfil {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Alinea el contenido a la izquierda */
-  width: 50%; /* Ocupa la mitad izquierda de la pantalla */
+  align-items: flex-start; 
+  width: 50%; 
   padding: 20px;
   border-bottom: 1px solid #ccc;
 }
@@ -24,7 +24,7 @@
 }
 
 .imagen-perfil input {
-  margin-bottom: 10px; /* Espacio entre el botón de carga y la imagen */
+  margin-bottom: 10px; 
 }
 
 .imagen-perfil img {
@@ -36,7 +36,7 @@
 
 .datos-usuario {
   text-align: left;
-  margin-top: 10px; /* Espacio entre la imagen de perfil y el nombre de usuario */
+  margin-top: 10px; 
 }
 
 .datos-usuario h2 {
@@ -50,12 +50,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 50%; /* Ocupa la mitad derecha de la pantalla */
+  width: 50%; 
   padding: 20px;
 }
 
 .imagenes-propiedades h3 {
-  margin-bottom: 10px; /* Espacio debajo del título de 'Propiedades' */
+  margin-bottom: 10px; 
 }
 
 .imagenes-propiedades p {
