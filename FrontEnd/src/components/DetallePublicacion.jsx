@@ -4,17 +4,17 @@ import { HouseDoorFill, BadgeWc } from 'react-bootstrap-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const DetallePublicacion = () => {
-  // URL de las imágenes
+  // Array de URLs de imágenes; asegúrate de que sean únicas
   const images = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_mPm-kxBKYX0-3pgrsnM_WvtJ5yGntMFfiA&s", // Imagen 1
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_mPm-kxBKYX0-3pgrsnM_WvtJ5yGntMFfiA&s", // Imagen 2 (mismo enlace actualmente; cambia según necesites)
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_mPm-kxBKYX0-3pgrsnM_WvtJ5yGntMFfiA&s"  // Imagen 3 (mismo enlace actualmente; cambia según necesites)
+    "https://via.placeholder.com/800x400?text=Imagen+1", // Imagen 1
+    "https://via.placeholder.com/800x400?text=Imagen+2", // Imagen 2
+    "https://via.placeholder.com/800x400?text=Imagen+3"  // Imagen 3
   ];
   
-  // Estado para controlar qué imagen grande se muestra, inicializada con la primera imagen
+  // Estado inicial para la imagen grande, comenzando con la primera imagen
   const [imagenGrande, setImagenGrande] = useState(images[0]);
 
-  // Handler para hacer clic en imágenes del selector
+  // Handler para cambiar la imagen grande al hacer clic en una miniatura
   const handleImageClick = (url) => {
     setImagenGrande(url);
   };
@@ -23,29 +23,29 @@ const DetallePublicacion = () => {
     <Container className="my-5">
       <Row>
         <Col md={8}>
-          {/* Imagen grande de la publicación */}
+          {/* Imagen principal que cambia al hacer clic en las miniaturas */}
           <img
-            src={imagenGrande} // Imagen seleccionada
+            src={imagenGrande}
             className="img-fluid mb-3"
             alt="Publicación Principal"
           />
 
-          {/* Selector de imágenes */}
+          {/* Conjunto de miniaturas */}
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             {images.map((url, index) => (
               <img
                 key={index}
                 src={url}
                 alt={`Imagen ${index + 1}`}
-                className="img-fluid cursor-pointer"
-                style={{ width: '32%' }}
-                onClick={() => handleImageClick(url)}
+                className="img-fluid"
+                style={{ width: '32%', cursor: 'pointer' }}
+                onClick={() => handleImageClick(url)} // Cambia la imagen grande
               />
             ))}
           </div>
         </Col>
         <Col md={4}>
-          {/* Detalles de la publicación */}
+          {/* Detalles adicionales de la publicación */}
           <h2>Título de la Propiedad</h2>
           <p><strong>Precio:</strong> $200,000</p>
           <p><strong>Comuna:</strong> Santiago</p>
@@ -59,4 +59,3 @@ const DetallePublicacion = () => {
 };
 
 export default DetallePublicacion;
-
